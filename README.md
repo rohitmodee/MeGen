@@ -1,6 +1,9 @@
 # MeGen - generation of gallium metal clusters using reinforcement learning
 
-<img src="https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f1_lr.jpg" width="70%", class="center">
+<p align="center" width="100%">
+    <img width="45%" src="https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f1_lr.jpg">
+    <img width="45%" src="https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f3_lr.jpg">
+</p>
 <!-- ![Overview](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f1_lr.jpg) -->
 
 <!-- ![new_workflow](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f3_lr.jpg) -->
