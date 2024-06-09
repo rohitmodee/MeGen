@@ -1,0 +1,1 @@
+-e git+https://github.com/risilab/cormorant.git#egg=cormorant

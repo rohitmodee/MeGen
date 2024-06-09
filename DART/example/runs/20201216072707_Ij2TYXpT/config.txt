@@ -1,0 +1,12 @@
+--restart=None
+--dataset=../data/small_dataset.npz
+--batch_size=32
+--adam_lr=0.001
+--decay_steps=25
+--max_epochs=1000
+--seed=42
+--lh=128
+--lo=128
+--li2=256
+--li3=128
+--li4=32

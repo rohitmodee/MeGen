@@ -1,0 +1,27 @@
+name: genga
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - torchaudio
+  - ase
+  - tqdm
+  - seaborn
+  - pytorch
+  - nglview
+  - jupyterlab
+  - nb_conda_kernels
+  - python=3.8
+  - matplotlib
+  - scikit-learn
+  - gym
+  - pandas
+  - jupyter_contrib_nbextensions
+  - autopep8
+  - schnetpack
+  - cudatoolkit=10.2
+  - torchvision
+  - quadpy
+  - gpaw
+  - ipympl
+prefix: /home/rohit/anaconda3/envs/genga
