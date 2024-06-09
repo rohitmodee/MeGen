@@ -8,7 +8,7 @@
 
 <!-- ![new_workflow](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f3_lr.jpg) -->
 
-[**MeGen**](https://iopscience.iop.org/article/10.1088/2632-2153/acdc03) is an RL-based algorithm that generates low-energy 3D structures of metal clusters with biased structure generation towards low-energy structures. MeGen employs DART-predicted energy to evaluate the generated structures. Including DART reduces the number of compute-intensive optimizations and adds a bias in the model’s learning by rewarding low-energy generated structures. This makes MeGen more efficient than algorithms like basin hopping, random search, and genetic evolutions that do not have such a bias and require local structure optimization.
+[**MeGen**](https://iopscience.iop.org/article/10.1088/2632-2153/acdc03) is an RL-based algorithm that generates low-energy 3D structures of metal clusters with biased structure generation towards low-energy structures. MeGen employs [DART](https://pubs.rsc.org/en/content/articlelanding/2021/cp/d1cp02956h)-predicted energy to evaluate the generated structures. Including DART reduces the number of compute-intensive optimizations and adds a bias in the model’s learning by rewarding low-energy generated structures. This makes MeGen more efficient than algorithms like basin hopping, random search, and genetic evolutions that do not have such a bias and require local structure optimization.
 
 This repository allows to train reinforcement learning policies for designing gallium clusters directly in Cartesian coordinates. The agent builds gallium cluster of size "N+1" by taking _Ga_ atoms from a given _bag_ and placing them onto a 3D _canvas_. The 3D _canvas_ has seed structure of gallium cluster of size "N".
 
