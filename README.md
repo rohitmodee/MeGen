@@ -12,7 +12,7 @@ In this work, we propose a 3D structure generator model named as MeGen (Metal cl
 
 This repository allows to train reinforcement learning policies for designing gallium clusters directly in Cartesian coordinates. The agent builds gallium cluster of size "N+1" by taking _Ga_ atoms from a given _bag_ and placing them onto a 3D _canvas_. The 3D _canvas_ has seed structure of gallium cluster of size "N".
 
-We have adapted the code from **MolGym**. We thank the authors for making the code available on github. MolGym package allows to train reinforcement learning policies for designing molecules directly in Cartesian coordinates. So MolGym was developed for organic molecules. We modified the code to work with clusters. In our case we focus on gallium clusters.
+We have adapted the code from [**MolGym**](https://github.com/gncs/molgym). We thank the authors for making the code available on github. MolGym package allows to train reinforcement learning policies for designing molecules directly in Cartesian coordinates. So MolGym was developed for organic molecules. We modified the code to work with clusters. In our case we focus on gallium clusters.
 
 MeGen uses DART model as a reward function. The snippet *reward = CustomReward()* calls the DART model to calculate reward.
 
