@@ -16,6 +16,16 @@ We have adapted the code from [**MolGym**](https://github.com/gncs/molgym). We t
 
 MeGen uses DART model as a reward function. The snippet *reward = CustomReward()* calls the DART model to calculate reward.
 
+**MeGen - generation of gallium metal clusters using reinforcement learning**<br>
+Rohit Modee, Ashwini Verma, Kavita Joshi, U. Deva Priyakumar<br>
+*Machine Learning: Science and Technology*, 2023.<br>
+https://iopscience.iop.org/article/10.1088/2632-2153/acdc03
+
+
+**DART: Deep learning enabled topological interaction model for energy prediction of metal clusters and its application in identifying unique low energy isomers**<br>
+Rohit Modee, Sheena Agarwal, Ashwini Verma, Kavita Joshi, U. Deva Priyakumar<br>
+*Physical Chemistry Chemical Physics*, 2021.<br>
+https://pubs.rsc.org/en/content/articlelanding/2021/cp/d1cp02956h
 
 <!-- <img src="resources/intro.png" width="40%"> -->
 
