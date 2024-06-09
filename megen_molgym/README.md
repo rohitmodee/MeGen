@@ -1,5 +1,9 @@
 # MeGen - generation of gallium metal clusters using reinforcement learning
 
+![Overview](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f1_lr.jpg)
+
+![new_workflow](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f3_lr.jpg)
+
 In this work, we propose a 3D structure generator model named as MeGen (Metal cluster structure Generation). MeGen generates energetically low-lying 3D structures ofGa clusters in Cartesian coordinates using RL. Our model exploits the rotationally covariant state representation for 3D structure generation. We integrate this state representation into an actor-critic neural network architecture with a rotationally covariant auto-regressive policy, where the position of the atom to be placed is modeled through a flexible distribution based on spherical harmonics. The reward function is based on a fundamental physical property (energy). We use the previously developed machine learning (ML) model DART to calculate the energies of various conformers/isomers generated during training. Contrary to other models that use structural information, our DART model uses features that capture topological/connectivity information to predict metallic clusters energies. As the descriptor consists of just the atom counts in each shell, it captures topological information and is known as topological atomic descriptor. DART model provides accuracy comparable to DFT at minimal computational cost. In a nutshell, MeGen is an RL-based algorithm that generates low-energy 3D structures ofmetal clusters with biased structure generation towards low-energy structures. MeGen employs DART-predicted energy to evaluate the generated structures. Including DART reduces the number of compute-intensive optimizations and adds a bias in the model’s learning by rewarding low-energy generated structures. This makes MeGen more efficient than algorithms like basin hopping, random search, and genetic evolutions that do not have such a bias and require local structure optimization. Our
 
 This repository allows to train reinforcement learning policies for designing gallium clusters directly in Cartesian coordinates. The agent builds gallium cluster of size "N+1" by taking _Ga_ atoms from a given _bag_ and placing them onto a 3D _canvas_. The 3D _canvas_ has seed structure of gallium cluster of size "N".
@@ -8,7 +12,6 @@ We have adapted the code from **MolGym**. We thank the authors for making the co
 
 MeGen uses DART model as a reward function. The snippet *reward = CustomReward()* calls the DART model to calculate reward.
 
-![new_workflow](https://content.cld.iop.org/journals/2632-2153/4/2/025032/revision2/mlstacdc03f3_lr.jpg)
 
 <!-- <img src="resources/intro.png" width="40%"> -->
 
