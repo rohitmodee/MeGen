@@ -75,7 +75,7 @@ python3 read_gen_eval_stru.py
 ```
 
 
-You can visualize the structures in the generated XYZ file using, for example, [ASE-GUI]https://wiki.fysik.dtu.dk/ase/ase/gui/gui.html#index-0).
+You can visualize the structures in the generated XYZ file using, for example, [ASE-GUI](https://wiki.fysik.dtu.dk/ase/ase/gui/gui.html#index-0).
 
 ## Citation
 
